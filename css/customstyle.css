@@ -1,0 +1,90 @@
+ul, ol {
+    list-style-type: none;
+}
+.hero {
+    /* background-image: linear-gradient(to bottom right, #008d36, #599517, #8e9b00, #c19b00, #f4970c); */
+    background: url(../img/hero_bg.jpg);
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+.hero-carousel .owl-item .item {
+    margin-top: 5rem;
+    border: 6px solid #fff;
+}
+.hero .btn-icon {
+    color: #fff;
+}
+.overlay_banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000c7;
+}
+#navbar-header {
+    height: 150px;
+}
+.navbar-brand-center img {
+    height: 140px;
+}
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    color: #4f9600;
+}
+.owl-carousel .owl-nav .owl-next span.lnr,.owl-carousel .owl-nav .owl-prev span.lnr {
+    font-weight: 800;
+}
+.nav-link {
+    color: #424242;
+    font-weight: 700;
+}
+.boxed-page .welcome-bg {
+    background: url(../img/pattern-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+footer.mastfoot {
+    background: #3a3a3a !important;
+    /* background-image: linear-gradient(to right top, #008d3654, #59951747, #8e9b0073, #c19b0094, #f4970c69); */
+    color: #fff;
+}
+footer.mastfoot .nav-link{
+    color: #fff;
+}
+section#gtco-menu .col-lg-4.menu-wrap:nth-child(1) {
+    background: #e22104;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+section#gtco-menu .col-lg-4.menu-wrap:nth-child(2) {
+    background: #f4970c;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+section#gtco-menu .col-lg-4.menu-wrap:nth-child(3) {
+    background: #4f9600;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.menus .text-wrap {
+    width: 100% ;}
+   
+    img.pattern-bg {
+        position: absolute;
+        right: 10%;
+        opacity: .3;
+    }
+    .bg-left {
+        right: unset;
+        left: 5%;
+        transform: rotate(90deg);
+    }
+    section#gtco-special-dishes img {
+        min-height: 400px;
+        object-fit: cover;
+    }
